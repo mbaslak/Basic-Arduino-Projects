@@ -172,7 +172,7 @@ else if(button == left) {
         point++;
       }
 }
-  for(int b = 0; b<250; b++){   // The user data is taken from buttons.
+  for(int b = 0; b<500; b++){   // The user data is taken from buttons.
     delay(1);
     if(button != down && digitalRead(up) ) {
       button = up;
